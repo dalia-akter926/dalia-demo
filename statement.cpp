@@ -1,28 +1,30 @@
-#include<iostream>
+#include <bits/stdc++.h>
 using namespace std;
+
 int main()
 {
-  int n;
+    int n;
   cin>>n;
   if(n==1)
   cout<<"one";
-  if(n==2)
+  else if(n==2)
     cout<<"two";
-  if(n==3)
+  else if(n==3)
     cout<<"three";
-  if(n==4)
+  else if(n==4)
     cout<<"four";
-  if(n==5)
+  else if(n==5)
     cout<<"five";
-  if(n==6)
+  else if(n==6)
     cout<<"six";
-    if(n==7)
+    else if(n==7)
         cout<<"seven";
-    if(n==8)
+    else if(n==8)
         cout<<"eight"<<endl;
+    else if(n==9)
+        cout<<"nine"<<endl;
+    else
+        cout<<"Greater than 9"<<endl;
 
-
-
-
-
+    return 0;
 }
